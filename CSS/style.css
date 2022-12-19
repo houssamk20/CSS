@@ -1,0 +1,199 @@
+body {
+    background-image:url('cool-background.png');
+    background-size:cover ;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: block;
+    margin: 0;
+}
+header nav{
+    display:flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.links a{
+    display:inline-block;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+}
+.links a :hover{
+    color: rgba(35, 138, 179, 0.686);
+}
+.home a{
+    display:inline-block;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+.introduction{
+    writing-mode: horizontal-tb;
+    display: inline-block;
+    animation: mymove 5s infinite;
+    animation-delay: 2s;
+    font-size: 50px;
+    font-weight: 900;
+    font-style: normal;
+    padding-left: 2em;
+}
+h2,h1,h3,p{
+    color: azure;
+}
+#contact,#work{
+    text-align: center;
+}
+#about p {
+    font-size:x-large;
+    padding-left: 2em;
+}
+#about h1{
+    padding-left: 2em;
+}
+.text{
+    font-size: 30px;
+    font-weight: 800;
+    font-style: normal; 
+}
+#contact{
+    border-radius: 20px;
+    position: absolute;
+    top:55%;
+    left: 50%;
+    z-index: 999;
+    padding: 45px 32px;
+    width: 370px;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.133);
+
+    border: 1px solid #fff;
+    backdrop-filter: blur(3px);
+    box-shadow: 0 0 6px 0 rgba(29, 29, 29, 0.203);
+}
+#contact h2{
+    margin: 10px auto;
+    font-size: larger;
+    font-style: oblique;
+}
+#contact p{
+    font-size: larger;
+    font-style: oblique;
+    font-weight: 9px;
+}
+.contact a{
+    filter: grayscale(100);
+}
+.feild input{
+    position: relative;
+    margin-bottom: 16px;
+    height: 45px;
+    width: 100%;
+    display: flex; 
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background: transparent;
+    outline: none;
+    color:rgb(0, 0, 0);
+    font-size:16px;
+    font-family:"poppins",sans-serif;
+    caret-color: aliceblue;
+}
+.space input{
+    position: relative;
+    margin-top: 16px;
+    height: 45px;
+    width: 100%;
+    display: flex;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background: transparent;
+    outline: none;
+    color:rgb(0, 0, 0);
+    font-size:16px;
+    font-family:"poppins",sans-serif;
+    caret-color: aliceblue;
+}
+.msg textarea{
+    position: relative;
+    margin-top: 16px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    border: 1px solid #fff;
+    padding: 0 0 10px;
+    border-radius: 10px;
+    background: transparent;
+    outline: none;
+    color:rgb(0, 0, 0);
+    font-size:18px;
+    font-family:"poppins",sans-serif;
+    resize: none;
+    cursor: text;
+    caret-color: aliceblue;
+}
+.send button[type="submit"]{
+    margin-top: 30px;
+    margin-bottom: 30px; 
+    border:2px solid rgb(248, 248, 248);
+    border-radius: 10px;
+    background: transparent;
+    color: rgb(245, 241, 241);
+    padding: 16px ;
+    text-align: center;
+    text-decoration:none;
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    cursor: pointer;
+}
+button:hover{
+    box-shadow: 0 0 35px rgb(37, 88, 164) ;
+}
+.skills{
+    padding: 1em;
+    width: 800px;
+    height: 300px;
+    display:flex;
+}
+ svg{
+    top:-44%;
+    position:relative;
+    display:flex;
+    width: 160px;
+    height: 154.9px;
+    margin-left: 60px;
+    fill:none;
+    stroke-width: 10px;
+    stroke-linecap: round;
+    transform: translate(5px,-4px);
+}
+.percent:nth-child(1){
+    stroke: rgb(201, 66, 13);
+        stroke-dasharray: 800;
+        stroke-dashoffset: 440;
+}
+.percent:nth-child(2){
+    stroke: rgb(13, 116, 201);
+    stroke-dasharray: 750;
+    stroke-dashoffset: 440;
+}
+.percent:nth-child(3){
+    stroke: rgb(103, 183, 7);
+    stroke-dasharray: 690;
+    stroke-dashoffset: 440;
+}
+.skills h3{
+    padding-left: 6.66em;
+    font-family: "poppins",sans-serif;
+}
+.skills h2{
+    padding-top: 2.56em;
+    padding-left: 5.2em;
+    font-family:"poppins",sans-serif;
+}
